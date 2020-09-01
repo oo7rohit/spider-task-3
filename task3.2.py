@@ -1,3 +1,5 @@
+import sys
+sys.setrecursionlimit(100000)
 def binary_search(a, lo, hi, diff):
     ans1 = diff
     while hi >= lo:
